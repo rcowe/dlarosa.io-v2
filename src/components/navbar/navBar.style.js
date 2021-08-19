@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {NavLink as Link}  from 'react-router-dom';
+import { CodeView } from '@styled-icons/remix-editor';
 
 export const Nav = styled.nav`
     background: red;
@@ -36,4 +37,8 @@ export const NavIcon = styled.div`
     }
 `
 
-export const Bars = styled()
+export const Bars = styled(CodeView)`
+    font-size: 2rem;
+    transform: translate(-50%, -15%);
+  `
+
